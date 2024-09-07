@@ -2,7 +2,7 @@
 import Cookies from "js-cookie";
 
 
-
+const apiUrl = process.env.REACT_APP_API_URL;
 
 async function FetchAPIs(endPoint,method,content,type,objects)
 {
@@ -52,7 +52,7 @@ async function FetchAPIs(endPoint,method,content,type,objects)
 
       try{  
          
-            const response =  await fetch(`https://growsoft-001-site1.htempurl.com/api/${endPoint}`,{
+            const response =  await fetch(`${apiUrl}${endPoint}`,{
                   headers : headers,
                   method : method,
                   body :  type === "form-data" ? formData : JSON.stringify(content),
