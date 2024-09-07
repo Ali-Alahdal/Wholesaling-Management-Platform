@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.App {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+}
+
+
+.main_container {
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+aside {
+  width: 25%;
+  height: 100vh;
+  position: fixed;
+}
+
+:root {
+  --bg: #0d6efd;
+  --bgText: #0d6efd;
+  --bgIntroduction: #0d6efd;
+}
+
+.t_t_c {
+  color: var(--bgText);
+}
+
+.t_bg_c {
+  background-color: var(--bg);
+}
+
+.t_sub_c {
+  background-color: #cfe2ff !important;
+}
+
+option :hover {
+  background-color: yellow;
+}
+
+select :hover {
+  background-color: yellow;
+}
+
+[data-bs-theme="dark"] {
+  --bs-body-color: var(--bs-black);
+  --bs-body-color-rgb: 255, 255, 255;
+  --bs-body-bg: var(--bs-black);
+  --bs-body-bg-rgb: 0, 0, 0;
+  --bs-tertiary-bg: #333;
+  .dark_mode{
+    color: black !important;
+  }
+  /* In Header profile Icon */
+  .dropdown-menu {
+    --bs-dropdown-bg: var(--bs-blue) !important;
+    --bs-dropdown-link-active-bg: #555;
+    --bs-body-color: var(--bs-black) !important;
+    --bs-dropdown-link-hover-bg: #4848485f !important;
+    --bs-dropdown-link-focus-bg: #4848485f !important;
+  }
+  /* slidebar for small screens */
+  .offcanvas {
+    --bs-body-color: var(--bs-black) !important;
+    --bs-offcanvas-bg: var(--bs-blue) !important;
+  }
+
+  .offcanvas-header {
+    --bs-body-color: var(--bs-black);
+  }
+  /* For them secundary color */
+  .t_sub_c {
+    background-color: #5596f7 !important;
+  }
+  /* suppliers cards */
+  .square_supplier {
+    color: black;
+  }
+  .phone_Links{
+    color: black !important;
+  }
+  /* In the footer Icons */
+  .footer_icons {
+    color: black !important;
+  }
+
+  /* In main page signup box */
+  .signup_box{
+    background-color: black !important;
+    color: var(--bgText);
+    
+  }
+  /* button inside signup */
+  .signup_box_btn{
+    background-color: black;
+    color: var(--bgText);
+  }
+  .sign_form{
+    background-color: black !important;
+    color: white;
+  }
+  .form-control{
+    background-color: black !important;
+    color: white !important;
+    border: solid 2px rgb(91, 91, 91);
+  }
+  .sign_form_submit{
+    color: black;
+  }
+  .submit_btn{
+    background-color: var(--bg) !important;
+    color: black !important;
+  }
+  .productCard{
+    background-color: black !important;
+    color: white !important;
+    border: solid 2px rgb(91, 91, 91);
+  }
+  .categoryList{
+    color: white !important;
+  }
+  .productGrid{
+    color: white !important;
+  }
+  .productImg{
+    background-color: #3068bdbb !important;
+  }
+  .dark_border{
+    border-color: #383737 !important;
+  }
+}
+
+
+
+[data-bs-theme="light"] {
+  --bs-body-color: var(--bs-white);
+  --bs-body-color-rgb: 0, 0, 0;
+  --bs-body-bg: var(--bs-white);
+  --bs-body-bg-rgb: 255, 255, 255;
+  --bs-tertiary-bg: #f8f9fa;
+  .dark_mode{
+    color: white;
+  }
+  .dropdown-menu {
+    --bs-body-bg: var(--bs-white);
+    --bs-dropdown-bg: var(--bs-white);
+    --bs-dropdown-link-active-bg: #72727269;
+    --bs-body-color: var(--bs-blue);
+  }
+
+  .offcanvas {
+    --bs-body-color: var(--bs-blue);
+  }
+
+  .footer_icons {
+    color: white;
+  }
+  .signup_box{
+    background-color: white !important;
+    color: var(--bgText);
+  }
+  .signup_box_btn{
+    background-color: var(--bg);
+    color: white;
+  }
+  .sign_form{
+    background-color: white;
+    color: var(--bgText);
+  }
+  .form-control{
+    background-color: white;
+    color: black;
+  }
+  .sign_form_submit{
+    color: white;
+  }
+  .text_P-bg_W{
+    color: var(--bgText);
+    /* background-color: white; */
+  }
+  .productCard{
+    background-color: white;
+    color: black;
+  }
+  .categoryList{
+    color: black !important;
+  }
+  .productGrid{
+    color: black;
+  }
+}

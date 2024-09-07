@@ -1,0 +1,59 @@
+.big_icons {
+    font-size: 9rem;
+    position: absolute;
+    top: 30px;
+    right: 150px;
+    opacity: 0.3;
+
+}
+.sign_btn{
+    cursor: pointer;
+}
+.signup_box_btn{
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 576px) {
+
+    .main_div {
+        margin: 5px !important;
+    }
+    .gap_sm{
+        gap: 2rem !important;
+    }
+    .sign_form{
+        width: calc(100vw - 60px)!important;
+    }
+    .profile_img_phone{
+        flex-direction: column;
+        margin: 20px;
+        align-items: start;
+        
+    }
+    .profile_img_phone h1{
+        margin-top: 20px;
+    }
+    .productCard{
+        width: 350px !important;
+    }
+    .p_small{
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .big_icons {
+        font-size: 8rem;
+        position: absolute;
+        top: 25px;
+        left: 55%;
+        opacity: 0.3;
+    }
+    .SupplierContainer{
+        width: 60% !important;
+        flex-direction: column !important;
+        
+    }
+}

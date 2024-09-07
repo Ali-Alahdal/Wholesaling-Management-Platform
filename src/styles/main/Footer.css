@@ -1,0 +1,45 @@
+.social_media {
+  position: relative;
+}
+
+.social_media::after,
+.social_media::before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  width: 25vw;
+  height: 0px;
+  border: white solid 1px;
+  opacity: 0.5;
+}
+
+.social_media::after {
+  left: 0;
+}
+
+.social_media::before {
+  right: 0;
+}
+
+@media only screen and (max-width: 576px) {
+  footer {
+    margin-right: -8px;
+  }
+
+  .logo_form{
+    flex-direction: column-reverse !important;
+  }
+  .social_media::after,
+  .social_media::before {
+    width: 15vw;
+  }
+
+}
+
+@media (min-width: 992px) {
+
+  .social_media::after,
+  .social_media::before {
+    width: 25vw;
+  }
+}
