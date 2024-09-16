@@ -23,7 +23,7 @@ function ProductInCart(props)
             {/* The div for product detials */}
             <div className="d-block ms-1   "> 
                 <div> {props.title} <span className=" t_sub_c ms-2 ps-1 pe-1 rounded-5">{props.quantity}</span> </div>
-                <div className="btn btn-success rounded-5 dark_mode mt-2 pt-0 pb-0"> {props.price} $</div>
+                <div className="btn btn-success rounded-5 dark_mode mt-2 pt-0 pb-0"> {props.price} {"$"}</div>
             </div>
 
             {/* The trash div */}
