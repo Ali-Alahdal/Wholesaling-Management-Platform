@@ -104,7 +104,7 @@ function Product(props)
                 <QuantityCounter setQuantity={setQuantity} product={props.data} imageUrl={props.imageUrl} />
 
                 {/* Add to cart section */}
-                <div className="w-50 d-flex text-center ">https://github.com/Ali-Alahdal/Wholesaling-Management-Platform/blob/main/src/components/Product.js
+                <div className="w-50 d-flex text-center ">
         
                     <i onClick={AddProudctToCart}  class="t_bg_c bi bi-bag-plus-fill btn btn-primary rounded-5 dark_mode "></i>
 
