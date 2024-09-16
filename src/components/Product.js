@@ -91,7 +91,7 @@ function Product(props)
                 {/* <Avatar className="position-absolute rounded-4 bg-primary-subtle rounded-bottom-0  m-auto" sx={{height:150 ,width:150}} src={props.imageUrl} alt={props.name}  variant="square" /> */}
                 <img className="productImg position-absolute start-0 rounded-3 bg-primary-subtle rounded-bottom-0 w-100 h-100 m-auto" src={props.imageUrl} alt={props.name} />
 
-                <span class="position-absolute end-0 bottom-0 dark_mode badge rounded-pill text-bg-success">{props.price + " REY"}</span>
+                <span class="position-absolute end-0 bottom-0 dark_mode badge rounded-pill text-bg-success">{props.price + " $"}</span>
             </div>
 
             {/* Name Paragraph  */}
@@ -130,7 +130,7 @@ function Product(props)
                         
                         <div className="w-auto d-flex justify-content-between">
                             <label >{props.title}</label>
-                            <label htmlFor="price">{props.price} $</label>
+                            <label htmlFor="price">{props.price} {"$"}</label>
                         </div>
                        
                     
