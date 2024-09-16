@@ -146,7 +146,7 @@ function Cart() {
                     {/*  Displaying the total price for order and make order button  */}
                     <div className="d-flex justify-content-between">
                         {/* Total price */}
-                        <div className="btn btn-secondary rounded-5 shadow dark_mode pt-0 pb-0"> Total <span className="btn btn-success dark_mode rounded-5">{total} REY</span></div>
+                        <div className="btn btn-secondary rounded-5 shadow dark_mode pt-0 pb-0"> Total <span className="btn btn-success dark_mode rounded-5">{total} $</span></div>
                         {/* Make order button */}
                         <button className="btn btn-primary dark_mode border border-1 rounded-5 shadow ps-3 pe-3" onClick={() =>{
                             // Open Confirmation Box
