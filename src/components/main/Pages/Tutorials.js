@@ -25,9 +25,9 @@ function Main(){
 
                   {/* The Grid for Categories Section */}
                   <div className='row row-cols-2 gap-5 '> 
-                     <Video src="https://www.youtube.com/embed/Iu1T7j2FA4M?si=9wEc_GuQcrEN_xFc" />
+                     <Video src="" />
                     
-                     <Video src="https://www.youtube.com/embed/Iu1T7j2FA4M?si=9wEc_GuQcrEN_xFc" />
+                     <Video src="" />
                   </div>
 
             </section>
@@ -42,9 +42,9 @@ function Main(){
 
                   {/* The Grid for Categories Section */}
                   <div className='row row-cols-2 gap-5 '> 
-                     <Video src="https://www.youtube.com/embed/Iu1T7j2FA4M?si=9wEc_GuQcrEN_xFc" />
+                     <Video src="" />
                      
-                     <Video src="https://www.youtube.com/embed/Iu1T7j2FA4M?si=9wEc_GuQcrEN_xFc" />
+                     <Video src="" />
                   </div>
 
             </section>
